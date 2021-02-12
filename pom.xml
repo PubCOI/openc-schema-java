@@ -23,6 +23,16 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.12.1</version>
         </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -77,6 +87,13 @@
                 <configuration>
                     <sourceDirectory>${basedir}/upstream/schemas</sourceDirectory>
                     <targetPackage>com.opencorporates.schemas</targetPackage>
+                    <includeJsr303Annotations>true</includeJsr303Annotations>
+                    <dateTimeType>java.time.OffsetDateTime</dateTimeType>
+                    <dateType>java.time.LocalDate</dateType>
+                    <timeType>java.time.LocalTime</timeType>
+                    <useCommonsLang3>true</useCommonsLang3>
+                    <initializeCollections>false</initializeCollections>
+                    <classNamePrefix>OC</classNamePrefix>
                 </configuration>
                 <executions>
                     <execution>
