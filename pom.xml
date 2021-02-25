@@ -92,7 +92,6 @@
                     <dateType>java.time.LocalDate</dateType>
                     <timeType>java.time.LocalTime</timeType>
                     <useCommonsLang3>true</useCommonsLang3>
-                    <initializeCollections>false</initializeCollections>
                     <classNamePrefix>OC</classNamePrefix>
                 </configuration>
                 <executions>
