@@ -1,4 +1,4 @@
 [submodule "upstream"]
 	path = upstream
-	url = /Users/ronald/code/pubcoi/upstream-openc-schema
+	url = git@github.com:PubCOI/openc-schema.git
 	branch = pubcoi

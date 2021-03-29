@@ -4,16 +4,13 @@ POJOs derived from schemas at https://github.com/openc/openc-schema
 
 ### Building
 
+**NB** this requires Maven 3.6.0 minimum
+
 ```bash
 mvn clean install
 ```
 
-### Importing
+### License
 
-```xml
-<dependency>
-    <groupId>org.pubcoi.schemas</groupId>
-    <artifactId>openc-schema</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</dependency>
-```
+OpenCorporates JSON schema (under `./upstream`) is MIT licensed. 
+This project is LGPL.
