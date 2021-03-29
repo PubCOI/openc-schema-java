@@ -23,7 +23,7 @@
 
     <groupId>org.pubcoi.schemas</groupId>
     <artifactId>opencorporates</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>openc-schema</name>
     <url>https://github.com/PubCOI/openc-schema-java</url>
@@ -33,7 +33,8 @@
         <connection>scm:git:git@github.com:PubCOI/openc-schema-java.git</connection>
         <developerConnection>scm:git:git@github.com:PubCOI/openc-schema-java.git</developerConnection>
         <url>https://github.com/PubCOI/openc-schema-java</url>
-    </scm>
+      <tag>opencorporates-1.0.0</tag>
+  </scm>
 
     <licenses>
         <license>
